@@ -19,9 +19,9 @@ To avoid polluting your base python environment let's create a virtual Python en
 
 We can create the environment with [Conda/Miniconda](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) where we can just type `conda create -n solarflarefluxpred-env python==3.11 pip` in the command line.
 
-	* Now we can activate the environment with `conda activate solarflarefluxpred-env`; and
-	* deactivate with `conda deactivate`.
-	* *Note: we need to have python 3.11, because a scikit-learn module does not work with newer python versions*
+* Now we can activate the environment with `conda activate solarflarefluxpred-env`; and
+* deactivate with `conda deactivate`.
+* *Note: we need to have python 3.11, because a scikit-learn module does not work with newer python versions*
 
 (See [here](https://docs.conda.io/en/latest/miniconda.html) for information on installing miniconda.)
 	
